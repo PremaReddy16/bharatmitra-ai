@@ -66,7 +66,7 @@ The AI:
 
 ## 📚 Government Scheme Knowledge Base
 
-- Structured database of **35 Government Welfare Schemes**
+- Structured database of **40 Government Welfare Schemes**
 - Agriculture
 - Healthcare
 - Education
@@ -131,20 +131,21 @@ Each recommendation includes:
           Supabase Authentication
                       │
                       ▼
-        Supabase Edge Function
-          analyze-citizen
+           Supabase Edge Function
+              analyze-citizen
                       │
           ┌───────────┴───────────┐
           ▼                       ▼
-Government_Schemes Table     Google Gemini AI
-      (35 Schemes)           (Profile Analysis)
+Government_Schemes Database     Google Gemini AI
+(PostgreSQL-40 Schemes)      (Profile understanding & Intelligent Scheme Matching)
           │                       │
           └───────────┬───────────┘
                       ▼
-       Personalized Scheme Matching
+         Personalized Recommendations
+     (Benefits,Documents & Official Links)
                       │
                       ▼
-      Recommendations Returned to User
+          Results Displayed to User
 ```
 
 ---
